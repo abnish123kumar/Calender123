@@ -210,9 +210,9 @@ body{
     color: white;
     top: 0;
     left: 0;
-    background-image: url('a.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     padding: 20px;
     grid-template-columns: repeat(3, auto);
     gap: 5px;

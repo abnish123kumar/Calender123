@@ -58,9 +58,9 @@ let month_list = calendar.querySelector('.month-list')
 
 month_names.forEach((e, index) => {
     let month = document.createElement('div')
-    console.log(index)
+    // console.log(index)
     month.innerHTML = `<div data-month="${index}">${e}</div>`
-    console.log(month.querySelector('div'));
+    // console.log(month.querySelector('div'));
     month.querySelector('div').onclick = () => {
         month_list.classList.remove('show')
         curr_month.value = index
